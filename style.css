@@ -242,6 +242,9 @@ body {
 #questions .icon i {
   font-size: 20px;
 }
+#questions .imgbox img {
+  border-radius: 20px;
+}
 
 #doggerblog {
   padding: 40px 0;
@@ -276,6 +279,9 @@ body {
 }
 #doggerblog .wid {
   width: 580px;
+}
+#doggerblog .imgbox img {
+  border-radius: 20px;
 }
 
 #ourservices {
