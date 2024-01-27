@@ -22,6 +22,9 @@ body {
 #carefor .imgbox {
   width: 500px;
 }
+#carefor .imgbox img {
+  border-radius: 20px;
+}
 
 #welcome {
   padding: 40px 0;
@@ -57,6 +60,9 @@ body {
 #welcome .wid {
   width: 580px;
 }
+#welcome .imgbox img {
+  border-radius: 20px;
+}
 
 #aboutus {
   padding: 40px 0;
@@ -85,6 +91,9 @@ body {
 }
 #aboutus .imgbox {
   width: 450px;
+}
+#aboutus .imgbox img {
+  border-radius: 20px;
 }
 
 #ourtrainers {
@@ -126,6 +135,9 @@ body {
 #ourtrainers .wid {
   width: 580px;
 }
+#ourtrainers .imgbox img {
+  border-radius: 20px;
+}
 
 #pricingtable {
   padding: 40px 0;
@@ -145,6 +157,7 @@ body {
   font-weight: 200;
 }
 #pricingtable .box {
+  border-radius: 20px;
   background-color: rgba(83, 128, 131, 0.5607843137);
   padding: 50px 30px;
   color: white;
