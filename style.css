@@ -25,6 +25,17 @@ body {
 #carefor .imgbox img {
   border-radius: 20px;
 }
+@media screen and (max-width: 768px) {
+  #carefor .textbox {
+    text-align: center;
+  }
+  #carefor .textbox h1 {
+    font-size: 55px;
+  }
+  #carefor .textbox h4 {
+    margin: 20px 0 40px;
+  }
+}
 
 #welcome {
   padding: 40px 0;
@@ -65,6 +76,23 @@ body {
 #welcome .imgbox img {
   border-radius: 20px;
 }
+@media screen and (max-width: 768px) {
+  #welcome .textbox {
+    padding: 25px;
+  }
+  #welcome .textbox h1 {
+    font-size: 45px;
+  }
+  #welcome .textbox h3 {
+    font-size: 22px;
+  }
+  #welcome .textbox h6 {
+    font-size: 25px;
+  }
+  #welcome .imgbox {
+    margin: 20px 0;
+  }
+}
 
 #aboutus {
   padding: 40px 0;
@@ -96,6 +124,14 @@ body {
 }
 #aboutus .imgbox img {
   border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+  #aboutus .textbox {
+    padding: 20px;
+  }
+  #aboutus .imgbox img {
+    margin-top: 25px;
+  }
 }
 
 #ourtrainers {
@@ -141,7 +177,7 @@ body {
 #ourtrainers .imgbox img {
   border-radius: 20px;
 }
-@media screen and (max-width: 563px) {
+@media screen and (max-width: 768px) {
   #ourtrainers .textbox h2 {
     padding: 15px 0;
   }
@@ -210,7 +246,7 @@ body {
 #pricingtable .premium-color .btn {
   background-color: #708f97;
 }
-@media screen and (max-width: 563px) {
+@media screen and (max-width: 768px) {
   #pricingtable .box {
     margin: 20px 0;
   }
@@ -266,14 +302,12 @@ body {
 #questions .imgbox img {
   border-radius: 20px;
 }
-@media screen and (max-width: 563px) {
-  #questions .imgbox {
-    width: 150px;
-    height: 200px;
+@media screen and (max-width: 768px) {
+  #questions h1 {
+    margin: 30px 0;
   }
   #questions .imgbox img {
-    margin: 25px;
-    border: 2px solid;
+    margin-top: 25px;
   }
 }
 
@@ -316,6 +350,9 @@ body {
 }
 #doggerblog .imgbox img {
   border-radius: 20px;
+}
+#doggerblog .imgbox .textbox h2 {
+  margin: 25px 0;
 }
 
 #ourservices {
