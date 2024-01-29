@@ -97,12 +97,6 @@ body {
 #aboutus .imgbox img {
   border-radius: 20px;
 }
-@media screen and (max-width: 563px) {
-  #aboutus .imgbox {
-    height: 100px;
-    width: 90px;
-  }
-}
 
 #ourtrainers {
   padding: 40px 0;
@@ -274,7 +268,12 @@ body {
 }
 @media screen and (max-width: 563px) {
   #questions .imgbox {
-    padding: 0 20px;
+    width: 150px;
+    height: 200px;
+  }
+  #questions .imgbox img {
+    margin: 25px;
+    border: 2px solid;
   }
 }
 
