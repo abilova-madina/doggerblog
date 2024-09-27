@@ -70,6 +70,12 @@ body {
   background-color: #98c6c6;
   color: #ffffff;
 }
+#welcome .textbox .btn h5:hover {
+  opacity: 70%;
+}
+#welcome .textbox .btn h5 i {
+  cursor: pointer;
+}
 #welcome .wid {
   width: 580px;
 }
@@ -163,13 +169,19 @@ body {
 #ourtrainers .textbox ul li {
   margin: 0 10px;
   border-radius: 50%;
-  background-color: #a9a7a7;
+  background-color: #8b8989;
   padding: 20px;
   width: 10px;
   height: 10px;
 }
 #ourtrainers .textbox ul li .icon {
   margin: -7px;
+}
+#ourtrainers .textbox ul li .icon:hover {
+  opacity: 70%;
+}
+#ourtrainers .textbox ul li .icon i {
+  cursor: pointer;
 }
 #ourtrainers .wid {
   width: 580px;
@@ -239,6 +251,12 @@ body {
   border-radius: 30px;
   background-color: #2b383c;
   color: white;
+}
+#pricingtable .box .btn:hover {
+  opacity: 70%;
+}
+#pricingtable .box .btn i {
+  cursor: pointer;
 }
 #pricingtable .premium-color {
   background-color: #2b383c;
@@ -390,4 +408,10 @@ body {
 #ourservices .textbox .icon {
   font-size: 60px;
   color: #0b0b0b;
+}
+#ourservices .textbox .icon:hover {
+  opacity: 70%;
+}
+#ourservices .textbox .icon i {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
